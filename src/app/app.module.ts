@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AutoBodiesComponent } from './auto-bodies/auto-bodies.component';
 import { ContactusComponent } from './contact-us/contactus.component';
+import { FooterComponent } from './footer/footer.component';
 import { MainBannerComponent } from './main-banner/main-banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
@@ -14,7 +15,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     AutoBodiesComponent,
     NavbarComponent ,
     ContactusComponent ,
-    MainBannerComponent
+    MainBannerComponent ,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
