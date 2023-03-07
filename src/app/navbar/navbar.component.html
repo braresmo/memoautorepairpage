@@ -1,0 +1,122 @@
+<nav
+  style="background: #ffffff"
+  class="navbar navbar-expand-xl navbar-light fixed-top p-3"
+>
+  <div class="container-xxl">
+    <a href="#" class="navbar-brand">
+      <img
+        src="assets/memoautorepairloSmall.png"
+        style="width: 120px; height: 57px;"
+        alt="memoautorepairlogo"
+        class="img-fluid"
+      />
+    </a>
+    <!-- Toggle button for navbar (Mobile Responsive) -->
+    <button
+      class="navbar-toggler bg-warning"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#main-nav"
+      aria-controls="main-nav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+
+    <div
+      id="main-nav"
+      class="navbtndiv collapse navbar-collapse justify-content-end align-center"
+    >
+      <ul class="navbar-nav fw-bold">
+        <li class="nav-item">
+          <a
+            href="#"
+            style="color : #0f0f0f;"
+            class="nav-link text-dark navbtn"
+            
+          >
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="#services"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+            What We Do
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="#portfolio"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+            Case Studies
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="#reviews"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+            Testimonials
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="#ourteam"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+            Our Team
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            href="#contact"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+            Contact Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            style="
+              background: rgb(255, 238, 0) !important;
+              color: black !important;
+              padding: 10px;
+            "
+            href="https://goo.gl/maps/yERmu7Eo4ZgtfGAp7"
+            target="_blank"
+            class="btn fw-bold btn-primary text-white d-none d-xl-inline-flex ms-3 rounded-pill"
+          >
+            Visit us or &nbsp;
+            <i class="bi bi-telephone-inbound-fill ms-1"></i>
+            <div>&nbsp; +1 (718) 8548822 &nbsp;</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Add active class to the current button (highlight it)
+  console.log('Validando')
+  var btns = document.getElementsByClassName('navbtn')
+  for (var i = 0; i < btns.length; i++) {
+    console.log(btns.length)
+    btns[i].addEventListener('click', function () {
+      var current = document.getElementsByClassName('activebtn')
+      current[0].className = current[0].className.replace(' activebtn', '')
+      this.className += ' activebtn'
+    })
+  }
+</script>
