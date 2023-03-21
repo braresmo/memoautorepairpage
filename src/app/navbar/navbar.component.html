@@ -1,12 +1,16 @@
 <nav
   style="background: #ffffff"
   class="navbar navbar-expand-xl navbar-light fixed-top p-3"
+  *ngIf="getInfo() != null"
 >
   <div class="container-xxl">
     <a href="#" class="navbar-brand">
       <img
-        src="assets/memoautorepairloSmall.png"
-        style="width: 120px; height: 57px;"
+        [src]="getInfo().logo"
+        [ngClass]="{
+          'memoAutorepair' : memoAutoRepair != null ,
+          'autoBodies' : autoBodies != null
+         }"
         alt="memoautorepairlogo"
         class="img-fluid"
       />
@@ -93,13 +97,13 @@
               color: black !important;
               padding: 10px;
             "
-            href="https://goo.gl/maps/yERmu7Eo4ZgtfGAp7"
+            [href]="getInfo().urlSiteMap"
             target="_blank"
             class="btn fw-bold btn-primary text-white d-none d-xl-inline-flex ms-3 rounded-pill"
           >
             Visit us or &nbsp;
             <i class="bi bi-telephone-inbound-fill ms-1"></i>
-            <div>&nbsp; +1 (718) 8548822 &nbsp;</div>
+            <div>&nbsp; {{getInfo().phoneNumber}} &nbsp;</div>
           </a>
         </li>
       </ul>

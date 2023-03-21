@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, Input, OnInit } from '@angular/core'
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-contact-us',
@@ -6,7 +7,12 @@ import { Component, OnInit } from '@angular/core'
   styleUrls: ['./contactus.component.css'],
 })
 export class ContactusComponent implements OnInit {
-  constructor() {}
+  @Input() infopage : any ;
+  constructor(private sanitizer: DomSanitizer) {
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.infopage.urlMap = this.sanitizer.bypassSecurityTrustResourceUrl(this.infopage.urlMap);
+    console.log(this.infopage);
+  }
 }

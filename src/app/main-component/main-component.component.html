@@ -1,0 +1,46 @@
+    <section class="container-fluid p-4 m-3" *ngIf="getPages() != null">
+      <div class="justify-content-center align-items-center text-center">
+        <h1 class="my-auto">We are Memoautorepair</h1>
+        <h4 class="my-auto">please choose which of our services you want to consult</h4>
+      </div>      
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+        <a routerLink="/memoautorepair" queryParamsHandling="merge" [queryParams]="{empresa: 'A'}">
+          <img [src]="getPages().memoAutoRepair.logo" alt="memoautorepairlogo"
+          style="width: 480px; height: 228px;" class="img-fluid zoom-img">
+        </a>
+      </div>
+      <div class="col-xs-12 col-md-6" >
+        <a routerLink="/autobodies" queryParamsHandling="merge" [queryParams]="{empresa: 'B'}">
+          <img [src]="getPages().autoBodies.logo" alt="AutoBodiesRUsNYlogo"
+          style="width: 480px; height: 167px; margin-top: 10% ;" class="img-fluid zoom-img">
+        </a>
+      </div>
+      </div>
+        <h1 class="text-center">About us</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Memo Auto Repair INC</h5>
+                        <p class="card-text">
+                          At Memoautorepair, we offer high-quality car repair and customization services to keep your vehicle in top condition. Trust us to handle any problem your car may have and ensure your complete satisfaction with our work.
+                        </p>
+                        <a routerLink="/memoautorepair" queryParamsHandling="merge" [queryParams]="{empresa: 'A'}" class="btn btn-primary">Go!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Auto Bodies R Us NY</h5>
+                        <p class="card-text">
+                          We specialize in auto body repairs and customizations to give your vehicle a fresh new look. Our experienced technicians use state-of-the-art equipment to ensure high-quality workmanship and exceptional customer service. Trust us to restore your vehicle to its original condition.  
+                        </p>
+                        <a routerLink="/autobodies" queryParamsHandling="merge" [queryParams]="{empresa: 'B'}" class="btn btn-primary">Go!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  

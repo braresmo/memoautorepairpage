@@ -1,13 +1,26 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContactusComponent } from './contact-us/contactus.component';
+import { AutoBodiesComponent } from './auto-bodies/auto-bodies.component';
+import { MainComponentComponent } from './main-component/main-component.component';
+import { MemoAutorepairComponent } from './memo-autorepair/memo-autorepair.component';
 
 const routes: Routes = [
   {
-    component : ContactusComponent ,
-    path : 'contact'
+    component : MemoAutorepairComponent ,
+    path : 'memoautorepair'
+  },
+  {
+    component : AutoBodiesComponent ,
+    path : 'autobodies'
+  },
+  {
+    component : MainComponentComponent ,
+    path : ''
+  },
+  {
+    component : MainComponentComponent ,
+    path : '**'
   }
-
 ];
 
 @NgModule({

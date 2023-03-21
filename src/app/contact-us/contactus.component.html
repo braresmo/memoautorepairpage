@@ -26,7 +26,7 @@
           class="col-12 bg-white my-4 shadow-lg"
         >
         <div class="row justify-content-center align-items-center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.387857410587!2d-73.9884017!3d40.6442815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ad6d6ceb063%3A0x56385a58cf83cce0!2sMEMO%20AUTO%20REPAIR%20INC!5e0!3m2!1ses-419!2sco!4v1678134136121!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe [src]="infopage.urlMap" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
@@ -48,9 +48,7 @@
             </div>
             <div class="col-12 mt-3">
               <p class="text-light">
-                3605 Fort Hamilton Pkwy, 
-                Brooklyn, NY 11218 <br>
-                Nueva York, EE. UU.
+                {{infopage.address}}
               </p>
             </div>
           </div>

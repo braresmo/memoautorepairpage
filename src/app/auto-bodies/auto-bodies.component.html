@@ -1,1 +1,4 @@
-<p>auto-bodies works!</p>
+<app-navbar [autoBodies] = "getPages().autoBodies"></app-navbar>
+<app-main-banner [infoBanner]="getPages().autoBodies.banner"></app-main-banner>
+<app-contact-us [infopage]= "getPages().autoBodies"></app-contact-us>
+<app-footer [infopage]= "getPages().autoBodies"></app-footer>

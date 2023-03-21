@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -6,11 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  @Input() memoAutoRepair : any ;
+  @Input() autoBodies : any ;
+  private infoPage : any ;
+  
 
-
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit(): void {
+    
+  }
+  getInfo(){
+    this.infoPage =  this.memoAutoRepair != null ? this.memoAutoRepair : this.autoBodies ;
+    return this.infoPage ;
   }
 
 }
