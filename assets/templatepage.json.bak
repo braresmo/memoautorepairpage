@@ -1,51 +1,102 @@
 {
-	"ourService" :[
-	{
-		"title" :"Oil Change",
-		"logo" :"assets/engine-oil.png",
-		"description" : "Cambio de aceite para carros, recomendado cada N Kilometros"
-	},
-	{
-		"title" :"brake repair",
-		"logo" :"assets/freno-de-disco.png",
-		"description" : "Reparamos el sistema de frenos de tu vehículo para garantizar tu seguridad"
-	}
-	,
-	{
-		"title" :"Alignment and Balancing",
-		"logo" :"assets/balanceo-de-balance.png",
-		"description" : "Alignment and balancing of wheels for smooth driving"
-	}
-	,
-  {    "title": "Alignment and Balancing",
-    "logo": "assets/alignment.png",
-    "description": "Alignment and balancing of wheels for smooth driving"  },
-  {    "title": "Tires",
-    "logo": "assets/tires.png",
-    "description": "Sale and installation of new tires"  },
-  {    "title": "Electronics",
-    "logo": "assets/electronics.png",
-    "description": "Electronics repair and maintenance"  },
-  {    "title": "Electrical Systems",
-    "logo": "assets/electrical.png",
-    "description": "Repair and maintenance of electrical systems"  },
-  {    "title": "Computerized Diagnostics",
-    "logo": "assets/diagnostics.png",
-    "description": "Computerized diagnostics for car issues"  },
-  {    "title": "Mechanics",
-    "logo": "assets/mechanics.png",
-    "description": "General mechanical repair and maintenance"  },
-  {    "title": "Engine Repair",
-    "logo": "assets/engine-repair.png",
-    "description": "Engine repair and maintenance"  },
-  {    "title": "Muffler Repair",
-    "logo": "assets/muffler.png",
-    "description": "Muffler repair and maintenance"  },
-  {    "title": "Air Conditioning",
-    "logo": "assets/air-conditioning.png",
-    "description": "Air conditioning repair and maintenance"  },
-  {    "title": "Heating",
-    "logo": "assets/heating.png",
-    "description": "Heating repair and maintenance"  }
-	]
+  "ourService": [
+    {
+      "title": "Oil Change",
+      "logo": "assets/engine-oil.png",
+      "description": "Cambio de aceite para carros, recomendado cada N Kilometros",
+      "images": [
+        "assets/mainimagememo.jpg",
+		"assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "brake repair",
+      "logo": "assets/freno-de-disco.png",
+      "description": "Reparamos el sistema de frenos de tu vehículo para garantizar tu seguridad",
+      "images": [
+        "assets/mainimagememo.jpg",
+		"assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Alignment and Balancing",
+      "logo": "assets/balanceo-de-balance.png",
+      "description": "Alignment and balancing of wheels for smooth driving",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Tires",
+      "logo": "assets/tires.png",
+      "description": "Sale and installation of new tires",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Electronics",
+      "logo": "assets/electronics.png",
+      "description": "Electronics repair and maintenance",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Electrical Systems",
+      "logo": "assets/electrical.png",
+      "description": "Repair and maintenance of electrical systems",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Computerized Diagnostics",
+      "logo": "assets/diagnostics.png",
+      "description": "Computerized diagnostics for car issues",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "logo": "assets/mechanics.png",
+      "description": "General mechanical repair and maintenance",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Engine Repair",
+      "logo": "assets/engine-repair.png",
+      "description": "Engine repair and maintenance",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Muffler Repair",
+      "logo": "assets/muffler.png",
+      "description": "Muffler repair and maintenance",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Air Conditioning",
+      "logo": "assets/air-conditioning.png",
+      "description": "Air conditioning repair and maintenance",
+      "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    },
+    {
+      "title": "Heating",
+      "logo": "assets/heating.png",
+      "description": "Heating repair and maintenance",
+	   "images": [
+        "assets/mainimagememo.jpg"
+      ]
+    }
+  ]
 }
