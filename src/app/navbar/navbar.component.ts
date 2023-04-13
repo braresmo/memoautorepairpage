@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../app.component';
+import { httpService } from '../services/httpService.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,21 +8,27 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  @Input() memoAutoRepair : any ;
-  @Input() autoBodies : any ;
-  private infoPage : any ;
-  
 
-  constructor() {
+  private infoPage : any ;
+
+  constructor(private service : httpService , private appComponent : AppComponent) {
     
    }
 
   ngOnInit(): void {
-    
+    this.service.getInfoPage().subscribe({
+      next: (v) => this.infoPage = v.ourService ,
+      error: (e) => console.error(e),
+      complete: () => {console.info('complete'); 
+    } 
+    })
   }
-  getInfo(){
-    this.infoPage =  this.memoAutoRepair != null ? this.memoAutoRepair : this.autoBodies ;
+
+  getInfoPage(){
     return this.infoPage ;
   }
 
+  togglePage(pageActive : string) {
+    this.appComponent.togglePage(pageActive) ;
+  }
 }

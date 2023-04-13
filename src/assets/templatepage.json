@@ -1,29 +1,224 @@
 {
-  "memoAutoRepair": {
-    "name": "Memo Auto Repair INC",
-    "description": "Esta es la descripción de la Empresa A",
-    "logo": "assets/memoautorepairlogo.png",
-	"phoneNumber" : "+1 (718) 8548822" ,
-	"urlMap" : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12109.387857410587!2d-73.9884017!3d40.6442815!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ad6d6ceb063%3A0x56385a58cf83cce0!2sMEMO%20AUTO%20REPAIR%20INC!5e0!3m2!1ses-419!2sco!4v1678134136121!5m2!1ses-419!2sco",
-	"urlSiteMap" : "https://goo.gl/maps/yERmu7Eo4ZgtfGAp7",
-	"banner" : {
-		"title" : "Welcome to memo auto repair shop!",
-		"message" : "No matter what kind of problem your vehicle has, our team is trained to fix it. From mechanical issues to body damage, we are the professional car workshop you can trust."
-	},
-	"address" : "3605 Fort Hamilton Pkwy, Brooklyn, NY 11218 Nueva York, EE. UU."
+  "ourService": [
+  {
+      "title": "Mechanics",
+      "logo": "assets/mechanic.png",
+	  "resume":"General mechanical repair and maintenance",
+      "description": "Our team of experienced mechanics is dedicated to providing top-notch service and repairs for all types of vehicles. From routine maintenance to major repairs, we have the skills and expertise to get your car running smoothly again. We use only the highest quality parts and equipment, and we're committed to providing honest, reliable service to every customer.",
+      "images": [
+	  {"image":"assets/mechanics.jpg"}
+      ]
+    },
+    {
+      "title": "Oil Change",
+      "logo": "assets/engine-oil.png",
+	  "resume":"Oil change for cars, recommended every N Kilometers",
+      "description": "Regular oil changes are essential for maintaining the health of your vehicle's engine. Our team of experts will get you in and out quickly, while ensuring that your car is running smoothly and efficiently. We use only the best oil and filters, and our technicians are trained to spot potential problems before they become major issues.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"},
+		  {"image":"assets/freno-de-disco.png"}
+      ]
+    },
+    {
+      "title": "brake repair",
+      "logo": "assets/freno-de-disco.png",
+	  "resume":"Reparamos el sistema de frenos de tu vehículo para garantizar tu seguridad",
+      "description": "Your brakes are one of the most important safety features on your car. If you're experiencing squeaking or grinding when you brake, or if your brakes just don't feel as responsive as they used to, it's time to bring your car in for service. Our expert technicians will diagnose the problem and provide the necessary repairs to get your brakes working like new.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"},
+		  {"image":"assets/freno-de-disco.png"}
+      ]
+    },
+    {
+      "title": "Alignment and Balancing",
+      "logo": "assets/balanceo-de-balance.png",
+	  "resume":"Alignment and balancing of wheels for smooth driving",
+      "description": "Alignment and Balancing: Proper wheel alignment and tire balancing are crucial for ensuring a smooth, comfortable ride, as well as maximizing the life of your tires. Our team of experts will use the latest equipment and techniques to ensure that your wheels are properly aligned and balanced, giving you the best possible driving experience.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Tires",
+      "logo": "assets/llanta-de-carro.png",
+	  "resume":"Sale and installation of new tires",
+      "description": "We offer a wide range of high-quality tires from the industry's top brands. Whether you're looking for all-season, winter, or performance tires, our experts can help you find the perfect set for your vehicle and your driving needs. We also offer tire mounting, balancing, and alignment services to ensure that your tires are performing at their best.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Electronics",
+      "logo": "assets/circuit.png",
+	  "resume":"Electronics repair and maintenance",
+      "description": "From stereo systems to GPS navigation, our team of experts can help you get the most out of your car's electronics. We offer a wide range of products and services, including installation, repair, and upgrades. Whether you're looking to add some extra bass to your sound system or you want to integrate your smartphone with your car's infotainment system, we can help.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Electrical Systems",
+      "logo": "assets/plug.png",
+	  "resume":"Repair and maintenance of electrical systems",
+      "description": "Your car's electrical system is responsible for powering everything from your headlights to your windshield wipers. If you're experiencing electrical problems, such as a dead battery or malfunctioning lights, our team of experts can diagnose and repair the issue quickly and efficiently.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Computerized Diagnostics",
+      "logo": "assets/analytic.png",
+	  "resume":"Computerized diagnostics for car issues",
+      "description": "Computerized Diagnostics: Modern cars are full of complex computer systems that can be difficult to diagnose and repair. Fortunately, our team of experts has the latest diagnostic equipment and software to quickly and accurately diagnose any issues with your car's systems. From engine management to transmission control, we have the tools and expertise to get your car running smoothly again.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Engine Repair",
+      "logo": "assets/engine.png",
+	  "resume":"Engine repair and maintenance",
+      "description": "If your engine is making strange noises, running rough, or just not performing like it used to, it's time to bring it in for service. Our team of expert technicians will diagnose the problem and provide the necessary repairs to get your engine running smoothly again.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Muffler Repair",
+      "logo": "assets/muffler.png",
+	  "resume":"Muffler repair and maintenance",
+      "description": "A noisy muffler can be annoying and embarrassing, but it can also be a sign of a more serious problem. Our team of experts can diagnose and repair any issues with your muffler or exhaust system, ensuring that your car is running smoothly and quietly.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Air Conditioning",
+      "logo": "assets/air-conditioning.png",
+	  "resume":"Air conditioning repair and maintenance",
+      "description": "A working air conditioning system is essential for staying comfortable on hot summer days. If your AC isn't working properly, our team of experts can diagnose and repair the issue quickly and efficiently, so you can get back to enjoying your drive.",
+      "images": [
+	  {"image":"assets/mainimagememo.jpg"}
+      ]
+    },
+    {
+      "title": "Heating",
+      "logo": "assets/heat.png",
+	  "resume":"Heating repair and maintenance",
+      "description": "Our team of experienced technicians provides comprehensive heating services to ensure your vehicle's heating system is working efficiently and effectively. From diagnosing and repairing heating system malfunctions to installing new heating systems, we have the expertise to handle all your heating needs. We use advanced diagnostic tools and techniques to identify any issues with your heating system and provide the best solutions to restore its functionality. Our services include repairing and replacing heating system components such as thermostats, radiators, and heating cores. We also offer preventive maintenance services to ensure your heating system is in top condition, helping you avoid unexpected breakdowns and costly repairs.",
+	   "images": [
+	   {"image":"assets/mainimagememo.jpg"}
+      ]
+    }
+  ] ,
+  "news": [
+    {
+      "title": "New product launch!",
+      "description": "We are excited to announce the launch of our latest product, which promises to revolutionize the industry. Read more about it here.",
+      "image": "https://example.com/images/product-launch.jpg",
+      "link": "https://example.com/news/product-launch",
+      "date": "2023-03-25"
+    },
+    {
+      "title": "Summer sale!",
+      "description": "Get ready for summer with our incredible sale. Save up to 50% on selected products. Limited time offer, so don't miss out!",
+      "image": "https://example.com/images/summer-sale.jpg",
+      "link": "https://example.com/news/summer-sale",
+      "date": "2023-06-15"
+    },
+    {
+      "title": "New store opening",
+      "description": "We are excited to announce the opening of our newest store in downtown. Come and visit us to discover our latest products and promotions.",
+      "image": "https://example.com/images/new-store.jpg",
+      "link": "https://example.com/news/new-store-opening",
+      "date": "2023-04-01"
+    },
+    {
+      "title": "Holiday gift guide",
+      "description": "Find the perfect gift for your loved ones this holiday season with our comprehensive gift guide. From tech gadgets to fashion accessories, we have something for everyone.",
+      "image": "https://example.com/images/gift-guide.jpg",
+      "link": "https://example.com/news/holiday-gift-guide",
+      "date": "2023-12-01"
+    },
+    {
+      "title": "Company anniversary",
+      "description": "We are proud to celebrate our 10th anniversary this year. Thank you to all of our loyal customers who have supported us throughout the years.",
+      "image": "https://example.com/images/company-anniversary.jpg",
+      "link": "https://example.com/news/company-anniversary",
+      "date": "2023-08-15"
+    },
+    {
+      "title": "New website launch",
+      "description": "We are excited to announce the launch of our new website. Our new platform offers a better user experience and more features than ever before.",
+      "image": "https://example.com/images/new-website.jpg",
+      "link": "https://example.com/news/new-website-launch",
+      "date": "2023-05-01"
+    }
+  ],
+  "banner" :[
+  {
+	  "title": "New WebSite",
+      "description": "from the memo Auto repair team open this web page to learn more about us",
+      "image": "assets/memoautorepairlogo.png"
   },
-  "autoBodies": {
-    "name": "Auto Bodies R Us NY",
-    "description": "Esta es la descripción de la Empresa B",
-    "logo": "assets/AutoBodiesRUsNYlogo.png" ,
-	"phoneNumber" : "+1 (718) 4481101" ,
-	"urlMap" : "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6055.618488239416!2d-74.1504224!3d40.6340886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24dbf5394d88f%3A0x78117e4ce6e62de0!2sAuto%20Bodies%20R%20Us%20NY%20Corp.!5e0!3m2!1sen!2sco!4v1679356700139!5m2!1sen!2sco",
-	"urlSiteMap" : "https://goo.gl/maps/RqNFAxy6H5xAHPFH9",
-	"banner" : {
-		"title" : "Welcome to Auto Bodies R shop!",
-		"message" : "Looking for quality auto body repair? Come to Autobodies R! Our shop offers expert repair services for all your auto body needs. Stop by today and let us get your vehicle looking like new again!"
-	},
-	"address" : "84A Granite Ave, Staten Island, NY 10303 Nueva York, EE. UU."
-	
+    {
+	  "title": "Title",
+      "description": "Comentarios",
+      "image": "assets/memoautorepairlogo.png"
+  },
+      {
+	  "title": "Title",
+      "description": "Comentarios",
+      "image": "assets/memoautorepairlogo.png"
   }
+  ],
+ "reviews" : [
+    {
+      "name": "nika shushtakashvili",
+      "comment": "Hello Brooklyn! We all know how hard is to find a reliable and trusted mechanic. I've been going to MEMO Auto Repair Inc since fall of 2021.  I can't recommend them enough. Their focus, professionalism, due diligence and fairness are unmatched.",
+      "rating": 5,
+	  "gender":"F",
+	  "date" : "03/2023"
+    },
+    {
+      "name": "Merphine Sitorus",
+      "comment": "They hooked up my control arms both upper and lower and switched my crossmember. Changed out one of my sensors and did my wheel alignment for a really great price.",
+      "rating": 5 ,
+	  "gender":"F",
+	  "date" : "04/2022"
+    }
+	,
+    {
+      "name": "Gedalia Miller",
+      "comment": "Great service very efficient, Just recently visited the shop they went out of their way to order late in the day a new Battery allowing me to leave and come back late at night to replace it.",
+      "rating": 5 ,
+	  "gender":"M",
+	  "date" : "06/2021"
+    }
+	,
+    {
+      "name": "hussein Jaber",
+      "comment": "Very professional and great mechanics specially the owner germo good man and great prices  love it.",
+      "rating": 5 ,
+	  "gender":"M",
+	  "date" : "08/2022"
+    }
+	,
+    {
+      "name": "SANDRA PATRICIA RODRIGUEZ MOJICA",
+      "comment": "Excelente servicio. Preguntar  por su propietario GUILLERMO BAQUERO.",
+      "rating": 5 ,
+	  "gender":"F",
+	  "date" : "03/2022"
+    }
+	,
+    {
+      "name": "isa4c",
+      "comment": "Muy buen servicio",
+      "rating": 5 ,
+	  "gender":"M",
+	  "date" : "06/2022"
+    }
+  ]
+
 }

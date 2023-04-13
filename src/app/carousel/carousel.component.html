@@ -1,0 +1,26 @@
+  <div id="{{idCarousel != null ? 'standar'+idCarousel  : 'standar'}}" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <ol class="carousel-indicators">
+      <li 
+      *ngFor="let image of images ; let i = index" [ngClass]="{'active' : i == 0}" [attr.data-bs-target]="'#' + (idCarousel != null ? 'standar'+idCarousel  : 'standar')" 
+      [attr.data-bs-slide-to]="i" ></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let image of images ; let i = index" [ngClass]="{ 'active' : i == 0}" >
+        <div class="text-center">
+          <img class="img-fluid" [src]="image.image" alt="Slide {{ i + 1 }}">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>{{image.title}}</h5>
+          <p style="color: white;">{{image.description}}</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" [attr.data-bs-target]="'#' + (idCarousel != null ? 'standar'+idCarousel  : 'standar')" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" [attr.data-bs-target]="'#' + (idCarousel != null ? 'standar'+idCarousel  : 'standar')" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>

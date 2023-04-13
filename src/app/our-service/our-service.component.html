@@ -1,0 +1,39 @@
+<section
+class="bg-light" id="services">
+<div class="container mt-5 ourservice" data-aos="fade-right">
+  <h1  id="servicesheader">Our Services.</h1>
+  <hr>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let service of getInfoPage() ; let i = index" [hidden]="!showAll && i >= 5">
+      <div class="card h-100">
+        <div class="card-body">
+          <h4 id="services{{i}}" class="card-title">{{service.title}}</h4>
+          <div class="media">
+            <img [src]="service.logo" alt="{{service.logo.substring(7)}}" class="mr-3" width="64">
+            <div class="media-body">
+              <p class="card-text">{{service.resume}}.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <a
+            href="#service{{i-1 == -1 ? '' : i-1}}"
+            class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3"
+            (click)="togglePage('service')"
+          >
+            View Details
+          </a>
+        </div>
+      </div>
+    </div>
+    <a
+            class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3"
+            href="#services4"
+            (click)="showAll = !showAll"
+          >
+          {{showAll ? 'Show Less' : 'Show More'}}
+          </a>
+  </div>
+</div>
+</section>

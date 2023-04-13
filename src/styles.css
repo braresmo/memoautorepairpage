@@ -99,6 +99,24 @@ section {
   .bslink > a:hover {
     color: #ffc107 !important;
   }
+
+  .btnwhatsapp {
+    background-color: #25d366;
+    color: #fff;
+    border-color: #25d366;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 25px;
+    line-height: 48px;
+    text-align: center;
+  }
+  
   
   /* .bi-check-circle-fill::before{
       color:#101059 !important;

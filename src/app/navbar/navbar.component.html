@@ -1,16 +1,12 @@
 <nav
   style="background: #ffffff"
-  class="navbar navbar-expand-xl navbar-light fixed-top p-3"
-  *ngIf="getInfo() != null"
+  class="navbar navbar-expand-xl navbar-light p-3"
 >
   <div class="container-xxl">
     <a href="#" class="navbar-brand">
       <img
-        [src]="getInfo().logo"
-        [ngClass]="{
-          'memoAutorepair' : memoAutoRepair != null ,
-          'autoBodies' : autoBodies != null
-         }"
+        src="assets/memoautorepairlogo.png"
+        style=" width: 120px; height: 57px;"
         alt="memoautorepairlogo"
         class="img-fluid"
       />
@@ -40,28 +36,23 @@
             href="#"
             style="color : #0f0f0f;"
             class="nav-link text-dark navbtn"
+            (click) ="togglePage('all')"
             
           >
             Home
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item dropdown">
           <a
-            href="#services"
             style="color: #000000;"
-            class="nav-link text-dark navbtn"
+            class="nav-link text-dark navbtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
           >
-            What We Do
+            Services
           </a>
-        </li>
-        <li class="nav-item">
-          <a
-            href="#portfolio"
-            style="color: #000000;"
-            class="nav-link text-dark navbtn"
-          >
-            Case Studies
-          </a>
+          <ul class="dropdown-menu">
+            <li><a (click) ="togglePage('all')" class="dropdown-item" href="#services" >All Services</a></li>
+            <li><a (click) ="togglePage('service')" class="dropdown-item" href="#service{{i-1 == -1 ? '' : i-1}}" *ngFor="let service of getInfoPage() ; let i = index">{{service.title}}</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a
@@ -69,21 +60,33 @@
             style="color: #000000;"
             class="nav-link text-dark navbtn"
           >
-            Testimonials
+            Reviews
           </a>
         </li>
         <li class="nav-item">
           <a
-            href="#ourteam"
+            href="#news"
+            (click) ="togglePage('news')"
             style="color: #000000;"
             class="nav-link text-dark navbtn"
           >
-            Our Team
+            News
           </a>
         </li>
         <li class="nav-item">
           <a
-            href="#contact"
+            href="#facilities"
+            (click) ="togglePage('all')"
+            style="color: #000000;"
+            class="nav-link text-dark navbtn"
+          >
+          Our facilities
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+          href="#contact"
+          (click) ="togglePage('all')"
             style="color: #000000;"
             class="nav-link text-dark navbtn"
           >
@@ -97,13 +100,11 @@
               color: black !important;
               padding: 10px;
             "
-            [href]="getInfo().urlSiteMap"
-            target="_blank"
+            href="tel:+17188548822"
             class="btn fw-bold btn-primary text-white d-none d-xl-inline-flex ms-3 rounded-pill"
           >
-            Visit us or &nbsp;
-            <i class="bi bi-telephone-inbound-fill ms-1"></i>
-            <div>&nbsp; {{getInfo().phoneNumber}} &nbsp;</div>
+            <i class="bi bi-telephone-inbound-fill ms-1"> Call us!</i>
+            <div>&nbsp; +1 (718) 8548822 &nbsp;</div>
           </a>
         </li>
       </ul>

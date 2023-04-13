@@ -6,8 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./main-banner.component.css']
 })
 export class MainBannerComponent implements OnInit {
-
-@Input() infoBanner :any ;
+@Input() images:any;
+@Input() banner:any;
 
   constructor() { }
 

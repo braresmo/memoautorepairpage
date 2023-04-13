@@ -1,32 +1,39 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AutoBodiesComponent } from './auto-bodies/auto-bodies.component';
 import { ContactusComponent } from './contact-us/contactus.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainBannerComponent } from './main-banner/main-banner.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MemoAutorepairComponent } from './memo-autorepair/memo-autorepair.component';
-import { MainComponentComponent } from './main-component/main-component.component';
-
+import { OurServiceComponent } from './our-service/our-service.component';
+import { ServiceComponent } from './service/service.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { NewsComponent } from './news/news.component';
+import { FacilitiesComponent } from './facilities/facilities.component';
+import { ReviewsComponent } from './reviews/reviews.component';
 @NgModule({
-  declarations: [		
+  declarations: [								
     AppComponent,
-    AutoBodiesComponent,
     NavbarComponent ,
     ContactusComponent ,
     MainBannerComponent ,
     FooterComponent,
-      MemoAutorepairComponent,
-      MainComponentComponent
+      OurServiceComponent,
+      ServiceComponent,
+      CarouselComponent,
+      NewsComponent,
+      FacilitiesComponent,
+      ReviewsComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

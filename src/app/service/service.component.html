@@ -1,0 +1,27 @@
+<section id="service" class="bg-light p-0">
+<section class="container py-5">
+  <h1 class="mb-3">Detalle del servicio</h1>
+  <div class="row mb-5" *ngFor="let service of getInfoPage() ; let i = index" data-aos="fade-up">
+    <div class="col-md-6">
+      <!-- Agrega el carrusel de imágenes -->
+      <app-carousel [images] = service.images [idCarousel] = i ></app-carousel>
+    </div>
+    <div class="col-md-6">
+      <!-- Agrega el detalle del servicio -->
+      <h2>{{service.title}}</h2>
+      <p class="font-italic">{{service.description}}</p>
+      <a
+      class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3"
+      (click)="setContact(service.resume , service.title , i)"
+          href="#contacform"
+    >
+      {{'Get in touch'}}
+    </a>
+      <div id="service{{i}}"></div>
+    </div>
+  </div>
+  <div *ngFor="let service of getInfoPage() ; let i = index" >
+    <app-contact-us [formDataService]="formData" *ngIf="i == index"></app-contact-us>
+  </div>
+</section>
+</section>

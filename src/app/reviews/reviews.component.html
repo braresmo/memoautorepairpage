@@ -1,0 +1,26 @@
+<section id="reviews" class="bg-light">
+  <div class="container container mt-5">
+    <h1  id="servicesheader">Reviews.</h1>
+    <hr>
+  <div class="row" data-aos="fade-left" >
+    <div class="col-md-4 mb-4" *ngFor="let review of reviews">
+      <div class="card h-100">
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-3">
+            <div class="mr-3">
+              <img src="{{review.gender == 'M' ? 'assets/usermale.png' : 'assets/userfemale.png' }}" alt="usermale" style="width: 45px; height: 45px;">
+            </div>
+            <h5 class="card-title mb-0">{{review.name}}</h5>
+          </div>
+          <p class="card-text"><small class="text-muted">Publicado : {{review.date}}</small></p>
+          <div class="d-flex align-items-center mb-3">
+            <span class="mr-2" *ngFor="let star of getStars(review.rating)" ><i class="fas fa-star"></i></span>
+            <span class="text-muted">({{review.rating}})</span>
+          </div>
+          <p class="card-text">{{review.comment}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>

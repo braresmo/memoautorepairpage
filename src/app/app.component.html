@@ -1,1 +1,12 @@
+<section *ngIf="getInfoPage() != null" class="p-0">
+<app-navbar></app-navbar>
+<app-news *ngIf="getisServicePage() == 'news'" [news] = "getInfoPage().news"></app-news>
+<app-service *ngIf="getisServicePage() == 'service'" [ourService] = "getInfoPage().ourService"></app-service>
+<app-main-banner *ngIf="getisServicePage() == 'all'" [banner] = getInfoPage().banner ></app-main-banner>
+<app-reviews *ngIf="getisServicePage() == 'all'" [reviews]=getInfoPage().reviews></app-reviews>
+<app-our-service *ngIf="getisServicePage() == 'all'" [ourService] = "getInfoPage().ourService" ></app-our-service>
+<app-facilities *ngIf="getisServicePage() == 'all'" ></app-facilities>
+<app-contact-us *ngIf="getisServicePage() != 'service'"></app-contact-us>
+<app-footer></app-footer>
 <router-outlet></router-outlet>
+</section>
