@@ -18,7 +18,7 @@ class="bg-light" id="services">
         </div>
         <div class="card-footer">
           <a
-            href="#service{{i-1 == -1 ? '' : i-1}}"
+            href="#service{{i-1 == -1 ? i : i-1}}"
             class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3"
             (click)="togglePage('service')"
           >

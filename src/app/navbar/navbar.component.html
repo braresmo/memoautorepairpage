@@ -52,7 +52,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a (click) ="togglePage('all')" class="dropdown-item" href="#services" >All Services</a></li>
-            <li><a (click) ="togglePage('service')" class="dropdown-item" href="#service{{i-1 == -1 ? '' : i-1}}" *ngFor="let service of getInfoPage() ; let i = index">{{service.title}}</a></li>
+            <li><a (click) ="togglePage('service')" class="dropdown-item" href="#service{{i-1 == -1 ? i : i-1}}" *ngFor="let service of getInfoPage() ; let i = index">{{service.title}}</a></li>
           </ul>
         </li>
         <li class="nav-item">
