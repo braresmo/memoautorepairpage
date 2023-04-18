@@ -113,44 +113,10 @@
   ] ,
   "news": [
     {
-      "title": "New product launch!",
-      "description": "We are excited to announce the launch of our latest product, which promises to revolutionize the industry. Read more about it here.",
-      "image": "https://example.com/images/product-launch.jpg",
-      "link": "https://example.com/news/product-launch",
-      "date": "2023-03-25"
-    },
-    {
-      "title": "Summer sale!",
-      "description": "Get ready for summer with our incredible sale. Save up to 50% on selected products. Limited time offer, so don't miss out!",
-      "image": "https://example.com/images/summer-sale.jpg",
-      "link": "https://example.com/news/summer-sale",
-      "date": "2023-06-15"
-    },
-    {
-      "title": "New store opening",
-      "description": "We are excited to announce the opening of our newest store in downtown. Come and visit us to discover our latest products and promotions.",
-      "image": "https://example.com/images/new-store.jpg",
-      "link": "https://example.com/news/new-store-opening",
-      "date": "2023-04-01"
-    },
-    {
-      "title": "Holiday gift guide",
-      "description": "Find the perfect gift for your loved ones this holiday season with our comprehensive gift guide. From tech gadgets to fashion accessories, we have something for everyone.",
-      "image": "https://example.com/images/gift-guide.jpg",
-      "link": "https://example.com/news/holiday-gift-guide",
-      "date": "2023-12-01"
-    },
-    {
-      "title": "Company anniversary",
-      "description": "We are proud to celebrate our 10th anniversary this year. Thank you to all of our loyal customers who have supported us throughout the years.",
-      "image": "https://example.com/images/company-anniversary.jpg",
-      "link": "https://example.com/news/company-anniversary",
-      "date": "2023-08-15"
-    },
-    {
       "title": "New website launch",
-      "description": "We are excited to announce the launch of our new website. Our new platform offers a better user experience and more features than ever before.",
-      "image": "https://example.com/images/new-website.jpg",
+	  "description":"Exciting news! We have just launched our brand new website, designed with a fresh new look and user-friendly navigation, making it easy to find the information you need about our products and services. Our new website is fully optimized for mobile devices, ensuring that you can access our website from any device, at any time. We are thrilled to share our new website with you and look forward to your continued support!",
+      "resume": "We are excited to announce the launch of our new website. Our new platform offers a better user experience and more features than ever before.",
+      "image": "assets/mainimagememo.jpg",
       "link": "https://example.com/news/new-website-launch",
       "date": "2023-05-01"
     }
