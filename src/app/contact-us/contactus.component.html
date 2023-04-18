@@ -27,7 +27,7 @@
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" name="message" rows="5" required [(ngModel)]="formData.message"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary" [disabled]="!isFormValid()">{{buttonvalue}}</button>
+              <button type="submit" class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3" [disabled]="!isFormValid()">{{buttonvalue}}</button>
             </form>
           </div>
             
