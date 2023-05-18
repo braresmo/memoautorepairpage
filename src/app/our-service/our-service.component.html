@@ -31,6 +31,7 @@ class="bg-light" id="services">
             class="grow btn btn-md fw-bold btn-warning text-dark rounded-pill p-3"
             href="#services4"
             (click)="showAll = !showAll"
+            *ngIf="getInfoPage().length > 5"
           >
           {{showAll ? 'Show Less' : 'Show More'}}
           </a>

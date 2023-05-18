@@ -6,7 +6,8 @@
 	  "resume":"General mechanical repair and maintenance",
       "description": "Our team of experienced mechanics is dedicated to providing top-notch service and repairs for all types of vehicles. From routine maintenance to major repairs, we have the skills and expertise to get your car running smoothly again. We use only the highest quality parts and equipment, and we're committed to providing honest, reliable service to every customer.",
       "images": [
-	  {"image":"assets/mechanics.jpg"}
+	  {"image":"assets/mechanics.jpg"},
+	  {"image":"assets/mechanics1.jpg"}
       ]
     },
     {
@@ -15,8 +16,7 @@
 	  "resume":"Oil change for cars, recommended every N Kilometers",
       "description": "Regular oil changes are essential for maintaining the health of your vehicle's engine. Our team of experts will get you in and out quickly, while ensuring that your car is running smoothly and efficiently. We use only the best oil and filters, and our technicians are trained to spot potential problems before they become major issues.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"},
-		  {"image":"assets/freno-de-disco.png"}
+	  {"image":"assets/oilchange.jpg"}
       ]
     },
     {
@@ -25,8 +25,7 @@
 	  "resume":"Reparamos el sistema de frenos de tu vehículo para garantizar tu seguridad",
       "description": "Your brakes are one of the most important safety features on your car. If you're experiencing squeaking or grinding when you brake, or if your brakes just don't feel as responsive as they used to, it's time to bring your car in for service. Our expert technicians will diagnose the problem and provide the necessary repairs to get your brakes working like new.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"},
-		  {"image":"assets/freno-de-disco.png"}
+	  {"image":"assets/brake-repair.jpg"}
       ]
     },
     {
@@ -35,7 +34,7 @@
 	  "resume":"Alignment and balancing of wheels for smooth driving",
       "description": "Alignment and Balancing: Proper wheel alignment and tire balancing are crucial for ensuring a smooth, comfortable ride, as well as maximizing the life of your tires. Our team of experts will use the latest equipment and techniques to ensure that your wheels are properly aligned and balanced, giving you the best possible driving experience.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/alignment-balancing.jpg"}
       ]
     },
     {
@@ -44,7 +43,7 @@
 	  "resume":"Sale and installation of new tires",
       "description": "We offer a wide range of high-quality tires from the industry's top brands. Whether you're looking for all-season, winter, or performance tires, our experts can help you find the perfect set for your vehicle and your driving needs. We also offer tire mounting, balancing, and alignment services to ensure that your tires are performing at their best.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/tires.jpg"}
       ]
     },
     {
@@ -53,7 +52,7 @@
 	  "resume":"Electronics repair and maintenance",
       "description": "From stereo systems to GPS navigation, our team of experts can help you get the most out of your car's electronics. We offer a wide range of products and services, including installation, repair, and upgrades. Whether you're looking to add some extra bass to your sound system or you want to integrate your smartphone with your car's infotainment system, we can help.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/electronics.jpg"}
       ]
     },
     {
@@ -62,7 +61,7 @@
 	  "resume":"Repair and maintenance of electrical systems",
       "description": "Your car's electrical system is responsible for powering everything from your headlights to your windshield wipers. If you're experiencing electrical problems, such as a dead battery or malfunctioning lights, our team of experts can diagnose and repair the issue quickly and efficiently.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/electrical-systems.jpg"}
       ]
     },
     {
@@ -71,7 +70,7 @@
 	  "resume":"Computerized diagnostics for car issues",
       "description": "Computerized Diagnostics: Modern cars are full of complex computer systems that can be difficult to diagnose and repair. Fortunately, our team of experts has the latest diagnostic equipment and software to quickly and accurately diagnose any issues with your car's systems. From engine management to transmission control, we have the tools and expertise to get your car running smoothly again.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/computerized-diagnostics.jpg"}
       ]
     },
     {
@@ -80,7 +79,7 @@
 	  "resume":"Engine repair and maintenance",
       "description": "If your engine is making strange noises, running rough, or just not performing like it used to, it's time to bring it in for service. Our team of expert technicians will diagnose the problem and provide the necessary repairs to get your engine running smoothly again.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/engine-repair.jpg"}
       ]
     },
     {
@@ -89,7 +88,7 @@
 	  "resume":"Muffler repair and maintenance",
       "description": "A noisy muffler can be annoying and embarrassing, but it can also be a sign of a more serious problem. Our team of experts can diagnose and repair any issues with your muffler or exhaust system, ensuring that your car is running smoothly and quietly.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/muffler-repair.jpg"}
       ]
     },
     {
@@ -98,7 +97,7 @@
 	  "resume":"Air conditioning repair and maintenance",
       "description": "A working air conditioning system is essential for staying comfortable on hot summer days. If your AC isn't working properly, our team of experts can diagnose and repair the issue quickly and efficiently, so you can get back to enjoying your drive.",
       "images": [
-	  {"image":"assets/mainimagememo.jpg"}
+	  {"image":"assets/air-conditioning.jpg"}
       ]
     },
     {
@@ -107,7 +106,19 @@
 	  "resume":"Heating repair and maintenance",
       "description": "Our team of experienced technicians provides comprehensive heating services to ensure your vehicle's heating system is working efficiently and effectively. From diagnosing and repairing heating system malfunctions to installing new heating systems, we have the expertise to handle all your heating needs. We use advanced diagnostic tools and techniques to identify any issues with your heating system and provide the best solutions to restore its functionality. Our services include repairing and replacing heating system components such as thermostats, radiators, and heating cores. We also offer preventive maintenance services to ensure your heating system is in top condition, helping you avoid unexpected breakdowns and costly repairs.",
 	   "images": [
-	   {"image":"assets/mainimagememo.jpg"}
+	   {"image":"assets/heating.jpg"}
+      ]
+    },
+    {
+      "title": "Our Works",
+      "logo": "assets/ourworks.png",
+	  "resume":"see our work",
+      "description": "some photos of our work",
+	   "images": [
+	   {"image":"assets/ourworks1.webp"},
+     {"image":"assets/ourworks2.webp"},
+     {"image":"assets/ourworks3.webp"},
+     {"image":"assets/ourworks4.webp"}
       ]
     }
   ] ,
@@ -115,8 +126,8 @@
     {
       "title": "New website launch",
 	  "description":"Exciting news! We have just launched our brand new website, designed with a fresh new look and user-friendly navigation, making it easy to find the information you need about our products and services. Our new website is fully optimized for mobile devices, ensuring that you can access our website from any device, at any time. We are thrilled to share our new website with you and look forward to your continued support!",
-      "resume": "We are excited to announce the launch of our new website. Our new platform offers a better user experience and more features than ever before.",
-      "image": "assets/mainimagememo.jpg",
+      "resume": "W are excited to announce the launch of our new website. Our new platform offers a better user experience and more features than ever before.",
+      "image": "assets/banner1.jpg",
       "link": "https://example.com/news/new-website-launch",
       "date": "2023-05-01"
     }
@@ -125,17 +136,7 @@
   {
 	  "title": "New WebSite",
       "description": "from the memo Auto repair team open this web page to learn more about us",
-      "image": "assets/mainimagememo.jpg"
-  },
-    {
-	  "title": "Title",
-      "description": "Comentarios",
-      "image": "assets/mainimagememo.jpg"
-  },
-      {
-	  "title": "Title",
-      "description": "Comentarios",
-      "image": "assets/mainimagememo.jpg"
+      "image": "assets/banner1.jpg"
   }
   ],
  "reviews" : [

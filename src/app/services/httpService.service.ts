@@ -7,7 +7,7 @@ import {  Observable } from 'rxjs';
 })
 export class httpService {
 
-  private apiMailUrl = 'https://formsubmit.co/ajax/d0d6a310aa0797940c3dcdc334968a7f';
+  private apiMailUrl = 'https://formsubmit.co/info@memoautorepair.com';
   private pathTemplateInfo = 'assets/templatepage.json'
 
   private formData: any ={
@@ -46,8 +46,6 @@ export class httpService {
 
   setFormData(formData:any){
     this.formData = formData ;
-    console.log(this.formData);
-    console.log("Este es el servicio");
   }
 
 }
