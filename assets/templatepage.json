@@ -108,6 +108,18 @@
 	   "images": [
 	   {"image":"assets/heating.jpg"}
       ]
+    },
+    {
+      "title": "Our Works",
+      "logo": "assets/ourworks.png",
+	  "resume":"see our work",
+      "description": "some photos of our work",
+	   "images": [
+	   {"image":"assets/ourworks1.webp"},
+     {"image":"assets/ourworks2.webp"},
+     {"image":"assets/ourworks3.webp"},
+     {"image":"assets/ourworks4.webp"}
+      ]
     }
   ] ,
   "news": [
